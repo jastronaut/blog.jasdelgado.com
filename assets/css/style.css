@@ -1,0 +1,60 @@
+---
+---
+
+@font-face {
+	font-family: Montserrat;
+	src: url('/assets/font/Montserrat-Black.ttf');
+	font-weight: 900;
+}
+
+body {
+	margin: 0;
+	font-family: sans-serif;
+	overflow-x: hidden;
+	color: #2d2d2d;
+}
+
+h1, h2, h3 {
+	font-family: Montserrat;
+	font-weight: 900;
+	margin-bottom: 0;
+}
+
+p, ol, ul, li{
+	line-height: 1.5;
+}
+
+ul {
+	padding-left: 1rem;
+}
+
+li::marker {
+	font-size: 1.25rem;
+}
+
+hr {
+	border: 1px solid #cacaca;
+	border-top: none;
+	width: 50%;
+}
+
+a {
+	color: black;
+	font-weight: bolder;
+}
+
+a:hover, a:visited {
+	color: rgba(0,0,0,0);
+	background:#000 linear-gradient(270deg, #e05e5e,#949cf2);
+	background-clip:text;
+	transition: 0.25s ease all;
+}
+
+a:focus {
+	outline: 2px solid #ba7da8;
+	outline-offset: 2px;
+}
+
+.post-title {
+	text-decoration: underline;
+}

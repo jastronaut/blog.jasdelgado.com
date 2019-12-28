@@ -1,0 +1,30 @@
+/**
+ * Code formatting
+ */
+pre,
+code {
+  // @include relative-font-size(0.9375);
+  font-size: 0.9375rem;
+  // border: 1px solid $grey-color-light;
+  border: 1px solid #cacaca;
+  border-radius: 3px;
+  background-color: #2b303b;
+}
+
+code {
+  padding: 1px 5px;
+  color: #c0c5ce;
+}
+
+pre {
+  padding: 8px 12px;
+  overflow-x: auto;
+
+  > code {
+    border: 0;
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+

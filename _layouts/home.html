@@ -1,0 +1,21 @@
+---
+layout: page
+---
+{%- if site.posts.size > 0 -%}
+	{%- for post in site.posts -%}
+		{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+		<div class='post-container'>
+			<div class="post-info">
+				<h1 class="post-title">
+					<a class="post-link" href="{{ post.url | relative_url }}">
+						{{ post.title | escape }}
+					</a>
+				</h1>
+				<div class="post-date">{{ post.date | date: date_format }}</div>
+			</div>
+			<div class="post">
+				{{ post.content}}
+			</div>
+		</div>
+	{%- endfor -%}
+{%- endif -%}

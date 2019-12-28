@@ -1,0 +1,62 @@
+---
+---
+
+header.site-header {
+	background: linear-gradient(270deg,#e05e5e,#949cf2);
+	min-height: 2rem;
+	padding: 1rem 0.5rem;
+	text-align: center;
+}
+
+a.site-title, a.site-title:visited {
+	text-decoration: none;
+	color:white;
+	transition: 0.25s ease text-shadow;
+}
+
+a.site-title h1 {
+	margin: 0;
+	margin-right: 1rem;
+	font-size: 2.5rem;
+}
+
+a.site-title:hover {
+	text-shadow: 2px 2px 5px  rgba(0,0,0,0.25);
+	transition: 0.25s ease text-shadow;
+}
+
+a.site-title:focus, .nav-bar a:focus {
+	outline: 2px solid white;
+	outline-offset: 2px;
+}
+
+nav.nav-bar {
+	padding: 0.5rem 0 0.25rem;
+}
+
+nav.nav-bar ul {
+	margin: 0;
+}
+
+nav.nav-bar li {
+	display: inline;
+	margin-right: 1rem;
+}
+
+nav.nav-bar li:last-of-type {
+	margin-right: 0;
+}
+
+nav.nav-bar a {
+	text-decoration: none;
+}
+
+nav.nav-bar a img {
+	transition: 0.25s ease all;
+}
+
+nav.nav-bar a:hover img {
+	transition: 0.2s ease all;
+	transform:translateY(-20%);
+
+}
