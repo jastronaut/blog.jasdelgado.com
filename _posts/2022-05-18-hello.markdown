@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "hello"
+date:   2022-05-18 18:06:00 -0500
+---
+
+i totally moved this blog to jekyll and then completely ignored it! for reasons both good and bad.
+
+- bad: i've been lazy & can't make this a habit. i also accidentally took down my blog and just... didn't have the confidence to put it back up.
+
+- good: i've decided i want to put less of myself online and that's totally fine! but now i have an empty blog. lol!
+
+i do think it would be cool if i shared stuff here SOMETIMES but i can't promise it. okay! seeya later.
