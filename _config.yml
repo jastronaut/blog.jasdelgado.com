@@ -23,7 +23,7 @@ email: hello@blog.jasdelgado.com
 description: >- # this means to ignore newlines until "baseurl:"
   jas delgado's blog and the chronicles of my amazing lyfe
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://blog.jasdelgado.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jastronaute
 github_username:  jastronaut
 
